@@ -1,0 +1,530 @@
+{
+	"info": {
+		"_postman_id": "18daa111-07e5-419b-98d0-12fde58e911a",
+		"name": "user",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37897234"
+	},
+	"item": [
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.3.2"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Sep 2024 21:44:01 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"bring all users successfully.\",\n    \"data\": [\n        {\n            \"name\": \"Admin User\",\n            \"email\": \"Admin@example.com\",\n            \"created_at\": \"2024-09-01T19:53:14.000000Z\",\n            \"updated_at\": \"2024-09-01T19:53:14.000000Z\"\n        },\n        {\n            \"name\": \"hgfhgfgh\",\n            \"email\": \"mbnbnmb@gckhg.com\",\n            \"created_at\": \"2024-09-01T21:26:07.000000Z\",\n            \"updated_at\": \"2024-09-01T21:26:07.000000Z\"\n        },\n        {\n            \"name\": \"testjhjgjhgjhg\",\n            \"email\": \"email@email.com\",\n            \"created_at\": \"2024-09-01T21:31:40.000000Z\",\n            \"updated_at\": \"2024-09-01T21:31:40.000000Z\"\n        },\n        {\n            \"name\": \"hgfhgfgh\",\n            \"email\": \"mbnbnmbhjhjhhhj@gckhg.com\",\n            \"created_at\": \"2024-09-01T22:33:50.000000Z\",\n            \"updated_at\": \"2024-09-01T22:33:50.000000Z\"\n        },\n        {\n            \"name\": \"testjhjgjhgjhg\",\n            \"email\": \"emailoioioi@email.com\",\n            \"created_at\": \"2024-09-01T22:35:48.000000Z\",\n            \"updated_at\": \"2024-09-01T22:35:48.000000Z\"\n        },\n        {\n            \"name\": \"hgfhgfgh\",\n            \"email\": \"bhjnvmnvmvhjhhhj@gckhg.com\",\n            \"created_at\": \"2024-09-01T23:48:55.000000Z\",\n            \"updated_at\": \"2024-09-01T23:48:55.000000Z\"\n        },\n        {\n            \"name\": \"hgfhgfgh\",\n            \"email\": \"pppppppppppppppppphhj@gckhg.com\",\n            \"created_at\": \"2024-09-02T19:51:31.000000Z\",\n            \"updated_at\": \"2024-09-02T19:51:31.000000Z\"\n        },\n        {\n            \"name\": \"jfjhfjhfjh\",\n            \"email\": \"popopopoioi@email.com\",\n            \"created_at\": \"2024-09-02T19:53:24.000000Z\",\n            \"updated_at\": \"2024-09-02T19:53:24.000000Z\"\n        },\n        {\n            \"name\": \"jfjhfjhfjh\",\n            \"email\": \"llkklklklklk@email.com\",\n            \"created_at\": \"2024-09-02T20:09:02.000000Z\",\n            \"updated_at\": \"2024-09-02T20:09:02.000000Z\"\n        },\n        {\n            \"name\": \"jfjhfjhfjh\",\n            \"email\": \"jljjhvjvbnvnbn@email.com\",\n            \"created_at\": \"2024-09-02T20:12:06.000000Z\",\n            \"updated_at\": \"2024-09-02T20:12:06.000000Z\"\n        }\n    ],\n    \"errors\": null\n}"
+				},
+				{
+					"name": "delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users/3",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"3"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.3.2"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Sep 2024 22:23:00 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": false,\n    \"message\": \"error with deleting the user\",\n    \"data\": null,\n    \"errors\": [\n        \"user not found.\"\n    ]\n}"
+				},
+				{
+					"name": "delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users/4",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"4"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.3.2"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Sep 2024 22:23:49 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": false,\n    \"message\": \"error with deleting the user\",\n    \"data\": null,\n    \"errors\": [\n        \"user not found.\"\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "add_user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "hghghg",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "65656email@email.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "54545454545645",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "54545454545645",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/users",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "show_user",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users/2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.3.2"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Sep 2024 21:53:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"the user has been showing successfuly\",\n    \"data\": {\n        \"name\": \"Admin User\",\n        \"email\": \"Admin@example.com\",\n        \"created_at\": \"2024-09-01T19:53:14.000000Z\",\n        \"updated_at\": \"2024-09-01T19:53:14.000000Z\"\n    },\n    \"errors\": null\n}"
+				},
+				{
+					"name": "updated_user",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "fghfghfgh",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "fddhghghgf@hfghfhg.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "hgjhghghjghj",
+									"type": "text"
+								},
+								{
+									"key": "id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "hgjhghghjghj",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users/3",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"3"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "jhgjhghjg",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "jhjhghj@hfghfg.com",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "gfhgfghfghfghfghgh",
+									"disabled": true
+								},
+								{
+									"key": "password_confirmation",
+									"value": "gfhgfghfghfghfghgh",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.3.2"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Sep 2024 22:17:06 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"the user updated successfuly\",\n    \"data\": {\n        \"name\": \"fghfghfgh\",\n        \"email\": \"fddhghghgf@hfghfhg.com\",\n        \"created_at\": \"2024-09-01T19:53:14.000000Z\",\n        \"updated_at\": \"2024-09-02T22:17:06.000000Z\"\n    },\n    \"errors\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "delete_user",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/users/4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
